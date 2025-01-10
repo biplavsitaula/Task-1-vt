@@ -1,11 +1,10 @@
-// import CodeCompiler from "./CodeCompiler";
+import CodeCompiler from "./CodeCompiler";
 
 
 function App() {
   return (
     <div className="App">
-      Hello world
-      {/* <CodeCompiler/> */}
+      <CodeCompiler/>
     </div>
   );
 }
