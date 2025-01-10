@@ -1,0 +1,107 @@
+body{
+    background-color: rebeccapurple;
+    color: #e8e8e8;
+}
+/* Overall container styling */
+.code-editor-container {
+  width: 100%;
+  font-family: "Arial", sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #e8e8e8;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 1.25rem;
+  color: inherit;
+  margin-top: 15px;
+}
+
+.editor-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+/* Styling for the language selector */
+.select-container {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+label {
+  font-size: 1rem;
+  color: #333;
+  margin-right: 10px;
+}
+
+select {
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+select:focus {
+  outline: none;
+  border-color: #6c63ff;
+}
+
+/* Buttons container */
+button {
+  padding: 12px 20px;
+  margin: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #6c63ff;
+  color: inherit;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #5a53e2;
+}
+
+button:disabled {
+  background-color: #d3d3d3;
+  cursor: not-allowed;
+}
+
+/* Output container styling */
+.output-container {
+  flex: 1;
+  background-color: #5d5d5d;
+  overflow-y: auto;
+  font-family: "Courier New", monospace;
+  color: inherit;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-size: 1rem;
+}
+
+.editor-container {
+  flex: 1;
+}
+
+.output-box {
+  width: 90%;
+  height: 90%;
+  outline: 1px solid #737373;
+  margin: auto;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.playground {
+  display: flex;
+}
